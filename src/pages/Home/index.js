@@ -1,7 +1,112 @@
 import React from 'react';
+import { MdAddShoppingCart } from 'react-icons/md';
 
-import { Title } from './styles';
+import { ProductList } from './styles';
 
 export default function Home() {
-  return <Title>Hello World</Title>;
+  return (
+    <ProductList>
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+
+      <li>
+        <img
+          src="https://static.netshoes.com.br/produtos/tenis-nike-downshifter-9-masculino/26/HZM-1276-026/HZM-1276-026_zoom2.jpg?ims=326x"
+          alt="Tẽnis"
+        />
+        <strong>Tênis 1</strong>
+        <span>R$130,00</span>
+
+        <button type="button">
+          <div>
+            <MdAddShoppingCart size={16} color="#FFF" /> 3
+          </div>
+
+          <span>ADICIONAR AO CARRINHO</span>
+        </button>
+      </li>
+    </ProductList>
+  );
 }

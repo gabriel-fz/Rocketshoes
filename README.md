@@ -40,8 +40,6 @@ A seguir, estão descritos todos os passos para a instalação e execução
 - [Node](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/pt-BR/docs/install#debian-stable)
 - [Git](https://git-scm.com/downloads) (Opcional)
-- [Insomnia](https://insomnia.rest/) (Opcional)
-- [Reactotron](https://github.com/infinitered/reactotron) (Opcional)
 
 ### :octocat: Clonando o repositório
 

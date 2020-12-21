@@ -55,7 +55,13 @@ Ou então, baixe este repositório zipado.
 
 Inicialmente na pasta raiz, digite o comando `yarn` para que todas as dependências sejam baixadas.
 
-Após baixar todas as dependências, abra a pasta raiz no prompt de comando e execute o seguinte comando para poder rodar o json-server:
+Após baixar todas as dependências, verifique se você tem disponível em sua máquina o json-server. Caso não tenha, intale globalmente utilizando o código abaixo ou verifique a documentação do mesmo para instalar localmente.
+
+```
+yarn global add json-server
+```
+
+Com o json-server instalado em sua máquina, abra a pasta raiz no prompt de comando e execute o seguinte comando para poder rodar o json-server:
 
 ```
 json-server server.json -p 3333
